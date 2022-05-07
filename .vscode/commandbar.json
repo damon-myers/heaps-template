@@ -1,0 +1,50 @@
+{
+  "skipTerminateQuickPick": true,
+  "skipSwitchToOutput": false,
+  "skipErrorMessage": true,
+  "commands": [
+    {
+      "text": "🍊 DX",
+      "color": "orange",
+      "commandType": "exec",
+      "command": "haxe build.directx.hxml",
+      "alignment": "right",
+      "skipTerminateQuickPick": false,
+      "priority": -9
+    },
+    {
+      "text": "🍊 OpenGL",
+      "color": "orange",
+      "commandType": "exec",
+      "command": "haxe build.opengl.hxml",
+      "alignment": "right",
+      "skipTerminateQuickPick": false,
+      "priority": -10
+    },
+    {
+      "text": "Run HL",
+      "color": "orange",
+      "command": "hl build/game.hl",
+      "alignment": "right",
+      "skipTerminateQuickPick": false,
+      "priority": -11
+    },
+    {
+      "text": "☕ web",
+      "color": "yellow",
+      "commandType": "exec",
+      "command": "haxe build.web.hxml",
+      "alignment": "right",
+      "skipTerminateQuickPick": false,
+      "priority": -20
+    },
+    {
+      "text": "Run JS",
+      "color": "yellow",
+      "command": "chrome run_game.html",
+      "alignment": "right",
+      "skipTerminateQuickPick": false,
+      "priority": -21
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Aseprite
+--cmd haxelib --always install ase
+--cmd haxelib --always git heaps-aseprite https://github.com/deepnight/heaps-aseprite.git
+
+# Heaps
+--cmd haxelib --always install hldx
+--cmd haxelib --always install hlsdl
+--cmd haxelib --always install heaps
+
+# Done
+--cmd haxelib list
