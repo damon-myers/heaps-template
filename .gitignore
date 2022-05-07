@@ -1,0 +1,5 @@
+build/
+res/.tmp/
+
+# VS Code
+.vscode/settings.json
